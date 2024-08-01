@@ -1,0 +1,35 @@
+import { Destination } from '../_model/destination';
+import { DestinationType } from '../_model/destination.type.enum';
+
+export const MOCK_DESTINATIONS: Destination[] = [
+  new Destination(1, 'Paris', 'The capital city of France, known for its art, fashion, and culture.', 'FR', DestinationType.City, new Date('2023-01-01'), 2148000),
+  new Destination(2, 'Tokyo', 'The capital city of Japan, famous for its skyscrapers, shopping, and pop culture.', 'JP', DestinationType.City, new Date('2023-02-15'), 13929286),
+  new Destination(3, 'New York', 'The largest city in the USA, known for its diverse culture and landmarks.', 'US', DestinationType.City, new Date('2023-03-30'), 8419000),
+  new Destination(4, 'Australia', 'A country and continent known for its unique wildlife and natural wonders.', 'AU', DestinationType.Country, new Date('2023-04-10'), 25687041),
+  new Destination(5, 'Canada', 'A country known for its beautiful landscapes and friendly people.', 'CA', DestinationType.Country, new Date('2023-05-20'), 38008005),
+  new Destination(6, 'London', 'The capital city of England, known for its history, landmarks, and royalty.', 'GB', DestinationType.City, new Date('2023-06-01'), 8982000),
+  new Destination(7, 'Berlin', 'The capital city of Germany, known for its art, music, and modern architecture.', 'DE', DestinationType.City, new Date('2023-07-15'), 3769000),
+  new Destination(8, 'Rome', 'The capital city of Italy, famous for its ancient ruins and Vatican City.', 'IT', DestinationType.City, new Date('2023-08-30'), 2873000),
+  new Destination(9, 'Rio de Janeiro', 'A city in Brazil known for its stunning beaches, Carnival festival, and Sugarloaf Mountain.', 'BR', DestinationType.City, new Date('2023-09-10'), 6748000),
+  new Destination(10, 'Dubai', 'A city in the United Arab Emirates known for its modern architecture, luxury shopping, and lively nightlife.', 'AE', DestinationType.City, new Date('2023-10-20'), 3331000),
+  new Destination(11, 'Cape Town', 'A city in South Africa known for its beautiful coastline, Table Mountain, and multicultural diversity.', 'ZA', DestinationType.City, new Date('2023-11-05'), 433688),
+  new Destination(12, 'Singapore', 'A city-state in Southeast Asia known for its cleanliness, futuristic architecture, and multicultural heritage.', 'SG', DestinationType.City, new Date('2023-12-15'), 5638700),
+  new Destination(13, 'Buenos Aires', 'The capital city of Argentina, known for its tango dance, vibrant culture, and European-style architecture.', 'AR', DestinationType.City, new Date('2024-01-10'), 2890151),
+  new Destination(14, 'Moscow', 'The capital city of Russia, known for its Red Square, Kremlin, and rich history.', 'RU', DestinationType.City, new Date('2024-02-20'), 11920000),
+  new Destination(15, 'Seoul', 'The capital city of South Korea, famous for its technology, K-pop music, and delicious street food.', 'KR', DestinationType.City, new Date('2024-03-30'), 9765000),
+  new Destination(16, 'Istanbul', 'A city in Turkey known for its rich history, stunning architecture, and vibrant markets.', 'TR', DestinationType.City, new Date('2024-04-15'), 15460000),
+  new Destination(17, 'Athens', 'The capital city of Greece, famous for its ancient history, ruins, and the Acropolis.', 'GR', DestinationType.City, new Date('2024-05-05'), 664046),
+  new Destination(18, 'Lisbon', 'The capital city of Portugal, known for its charming neighborhoods, historic trams, and vibrant culture.', 'PT', DestinationType.City, new Date('2024-06-10'), 504718),
+  new Destination(19, 'Madrid', 'The capital city of Spain, renowned for its lively atmosphere, museums, and historic sites.', 'ES', DestinationType.City, new Date('2024-07-20'), 6642000),
+  new Destination(20, 'Vancouver', 'A city in Canada known for its stunning natural scenery, outdoor activities, and cultural diversity.', 'CA', DestinationType.City, new Date('2024-08-25'), 631490),
+  new Destination(21, 'Buenos Aires', 'The capital city of Argentina, known for its tango dance, vibrant culture, and European-style architecture.', 'AR', DestinationType.City, new Date('2024-09-05'), 2890151),
+  new Destination(22, 'Zurich', 'The largest city in Switzerland, known for its financial center, scenic beauty, and cultural institutions.', 'CH', DestinationType.City, new Date('2024-10-10'), 440000),
+  new Destination(23, 'Dubai', 'A city in the United Arab Emirates known for its modern architecture, luxury shopping, and lively nightlife.', 'AE', DestinationType.City, new Date('2024-11-15'), 3331000),
+  new Destination(24, 'Sydney', 'A major city in Australia known for its iconic Opera House, stunning harbor, and beautiful beaches.', 'AU', DestinationType.City, new Date('2024-12-20'), 5312161),
+  new Destination(25, 'Hong Kong', 'A vibrant city known for its skyline, harbor, and dynamic blend of Eastern and Western cultures.', 'HK', DestinationType.City, new Date('2025-01-15'), 7442000),
+  new Destination(26, 'Cape Town', 'A city in South Africa known for its beautiful coastline, Table Mountain, and multicultural diversity.', 'ZA', DestinationType.City, new Date('2025-02-20'), 433688),
+  new Destination(27, 'San Francisco', 'A city in California known for its Golden Gate Bridge, cultural landmarks, and diverse neighborhoods.', 'US', DestinationType.City, new Date('2025-03-10'), 815201),
+  new Destination(28, 'Vienna', 'The capital city of Austria, famous for its classical music, imperial history, and elegant architecture.', 'AT', DestinationType.City, new Date('2025-04-05'), 1900000),
+  new Destination(29, 'Budapest', 'The capital city of Hungary, known for its thermal baths, historic architecture, and vibrant nightlife.', 'HU', DestinationType.City, new Date('2025-05-15'), 1752286),
+  new Destination(30, 'Prague', 'The capital city of the Czech Republic, famous for its medieval architecture, historic sites, and picturesque scenery.', 'CZ', DestinationType.City, new Date('2025-06-20'), 1300000)
+];

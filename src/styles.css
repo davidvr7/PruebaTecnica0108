@@ -1,0 +1,381 @@
+/* General styles */
+html, body {
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+  width: 100%; 
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+} 
+
+/* Header */
+header {
+background-color: #1F2941  !important;   
+} 
+
+/* Sidebar */
+aside {  
+background-color: #1F2941 !important;  
+padding-top: 2%;
+padding-bottom: 5%;
+}
+
+/* Main content */
+main {
+background-color: #141B2D;
+padding-top: 5%;
+padding-bottom: 5%;  
+}
+
+/* Styles for larger screens (min-width: 768px) */
+@media (min-width: 768px)   { 
+
+header {
+  min-height: 5vh; 
+} 
+
+aside { 
+  min-height: 95vh;  
+}
+
+main {
+  min-height: 95vh;   
+} 
+
+}
+ 
+/* Common styles for containers and elements */
+.createDestination {
+  border-radius: 5%;
+}
+
+.modal-content {
+  border-radius: 5%;
+}
+
+.mat-mdc-table, 
+.mat-mdc-table th,
+.mat-mdc-table td,
+.mat-mdc-table tr {
+  border-radius: 5%;
+}
+
+.form-control {
+  border-color: currentColor !important; 
+}
+
+/* Common Buttons */
+.btn {
+  border-radius: 10px;  
+  transition: background-color 0.3s;  
+}
+
+.btn_update {
+  border-radius: 10px;  
+}
+
+.btn_delete {
+  border-radius: 10px;  
+}
+
+.btn_details {
+  border-radius: 10px;  
+}
+
+.btn i {
+  transition: color 0.3s;  
+}
+
+.btn-primary-manual {
+  transition: background-color 0.3s;
+}
+
+/* Common Sidebar elements */
+li {
+  margin-top: 0px; 
+}
+
+aside li span {
+  margin-left: 20px;
+}
+
+li:hover .fa {
+  transition: color 0.3s;
+}
+
+li:hover span {
+  transition: color 0.3s;
+}
+
+td button {
+  width: 50px;
+}
+
+.fa { 
+  font-size: 1.125rem;
+  line-height: 1;
+  margin-right: 0%;
+  min-width: 25px;
+}
+
+a {
+  font-size: 0.875rem;
+  line-height: 1;
+  vertical-align: middle;
+  text-decoration: none;  
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #141B2D;
+  color: #BDBDBD;
+}
+
+body.dark-mode header {
+  background-color: #1F2941 !important;
+}
+
+body.dark-mode aside {  
+  background-color: #1F2941 !important;  
+  color: #BDBDBD;
+}
+
+body.dark-mode main {
+  background-color: #141B2D;
+}
+ 
+/* Dark Mode Specific Text Colors */
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6, body.dark-mode p, body.dark-mode .form-label {
+  color: #BDBDBD;
+}
+ 
+
+body.dark-mode .form-control::placeholder {
+  color: #BDBDBD !important;
+}
+
+body.dark-mode .createDestination {
+  background-color: #1F2941;
+}
+
+body.dark-mode .modal-content {
+  background-color: #1F2941;
+}
+
+body.dark-mode .mat-mdc-table, 
+body.dark-mode .mat-mdc-table th,
+body.dark-mode .mat-mdc-table td,
+body.dark-mode .mat-mdc-table tr {
+  background-color: #1F2941 !important;
+  color: white;
+}
+
+body.dark-mode .form-control {
+  background-color: #141B2D !important; 
+  color: #BDBDBD !important; 
+}
+
+body.dark-mode .navbar-brand {
+  color: white !important; 
+}
+
+body.dark-mode .mat-mdc-paginator {
+  background-color: #778899 !important; 
+}
+
+body.dark-mode .btn_update {
+  border: 1px yellow solid !important;
+}
+
+body.dark-mode .btn_delete {
+  border: 1px red solid !important;
+}
+
+body.dark-mode .btn_details {
+  border: 1px green solid !important;
+}
+
+body.dark-mode .btn_update:hover, 
+body.dark-mode .btn_delete:hover, 
+body.dark-mode .btn_details:hover {
+  background-color: #333;  
+}
+
+body.dark-mode .btn:hover i {
+  color: #fff;  
+}
+
+body.dark-mode .btn-primary-manual {
+  background-color: #6E71FF !important;
+}
+
+body.dark-mode .btn-primary-manual:hover { 
+  background-color: #4749f7 !important;
+}
+
+body.dark-mode .btn-primary-manual:hover span {
+  color: #d1d1d1;  
+}
+
+body.dark-mode li {
+  color: rgb(191, 191, 191); 
+}
+
+body.dark-mode li span {
+  color: rgb(191, 191, 191);
+}
+
+body.dark-mode li:hover .fa {
+  color: hsla(216,60%,75%,1);
+}
+
+body.dark-mode li:hover span {
+  color: hsla(216,60%,75%,1);
+}
+
+body.dark-mode .fa {
+  color: rgb(191, 191, 191);
+}
+
+body.dark-mode .fas {
+  color: rgb(191, 191, 191);
+}
+
+body.dark-mode .has-search .form-control-feedback {
+  color: #aaa;
+}
+
+/* Light Mode */
+body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6, body.light-mode p, body.light-mode .form-label {
+  color: black;
+}
+
+body.light-mode {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+body.light-mode header {
+  background-color: #F1F1F1 !important;
+}
+
+body.light-mode aside {  
+  background-color: #F1F1F1 !important;  
+  color: #000000;
+}
+
+body.light-mode main {
+  background-color: #F9F9F9;
+}
+
+/* Light Mode Text Colors */
+ 
+
+body.light-mode .form-control::placeholder {
+  color: black !important;
+}
+
+body.light-mode .createDestination {
+  background-color: #E1E1E1;
+}
+
+body.light-mode .modal-content {
+  background-color: #E1E1E1;
+}
+
+body.light-mode .mat-mdc-table, 
+body.light-mode .mat-mdc-table th,
+body.light-mode .mat-mdc-table td,
+body.light-mode .mat-mdc-table tr {
+  background-color: #E1E1E1 !important;
+  color: #000000;
+}
+
+body.light-mode .form-control {
+  background-color: #FFFFFF !important; 
+  color: #000000 !important; 
+}
+
+body.light-mode .navbar-brand {
+  color: #000000 !important; 
+}
+
+body.light-mode .mat-mdc-paginator {
+  background-color: #E1E1E1 !important; 
+}
+
+body.light-mode .btn_update {
+  border: 1px yellow solid !important;
+}
+
+body.light-mode .btn_delete {
+  border: 1px red solid !important;
+}
+
+body.light-mode .btn_details {
+  border: 1px green solid !important;
+}
+
+body.light-mode .btn_update:hover, 
+body.light-mode .btn_delete:hover, 
+body.light-mode .btn_details:hover {
+  background-color: #DDD;  
+}
+
+body.light-mode .btn:hover i {
+  color: #000;  
+}
+
+body.light-mode .btn-primary-manual {
+  background-color: #4A4AFF !important;
+}
+
+body.light-mode .btn-primary-manual:hover { 
+  background-color: #3A3AF7 !important;
+}
+
+body.light-mode .btn-primary-manual:hover span {
+  color: #000000;  
+}
+
+body.light-mode li {
+  color: #000000; 
+}
+
+body.light-mode li span {
+  color: #000000;
+}
+
+body.light-mode li:hover .fa {
+  color: hsla(216,60%,35%,1);
+}
+
+body.light-mode li:hover span {
+  color: hsla(216,60%,35%,1);
+}
+
+body.light-mode .fa {
+  color: #000000;
+}
+
+body.light-mode .fas {
+  color: #000000;
+}
+
+body.light-mode .has-search .form-control-feedback {
+  color: #000;
+}

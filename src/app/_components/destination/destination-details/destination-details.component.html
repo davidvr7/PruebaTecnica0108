@@ -1,0 +1,15 @@
+<div class="container col-6">
+  <div class="createDestination p-4">
+    <h2>Destination Detail</h2>
+    <div>
+      <p><strong>Name:</strong> {{ destination?.name }}</p>
+      <p><strong>Description:</strong> {{ destination?.description }}</p>
+      <p><strong>Country Code:</strong> {{ destination?.countryCode }}</p>
+      <p><strong>Type:</strong> {{ destination?.type }}</p>
+      <p><strong>Last Modify:</strong> {{ destination?.lastModify | date }}</p>
+    </div>
+    <div class="text-end">
+      <button type="button" class="btn btn-secondary" routerLink="/">Back</button>
+    </div>
+  </div>
+</div>

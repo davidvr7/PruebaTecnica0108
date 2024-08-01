@@ -1,0 +1,12 @@
+<ul class="nav flex-column">
+  <li class="nav-item" *ngFor="let module of filteredModules; let isFirst = first">
+    <a class="nav-link" [class.active]="isFirst" aria-current="page" href="#">
+      <i class="fa" [ngClass]="module.icon"></i> <span>{{ module.name }}</span>
+    </a>
+  </li>  
+</ul>
+
+<div class="form-group has-search mt-3">
+  <span class="fa fa-search form-control-feedback"></span>
+  <input type="text" class="form-control" placeholder="Search" [(ngModel)]="searchTerm" (input)="onSearch()">
+</div>
